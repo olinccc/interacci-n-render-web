@@ -23,6 +23,7 @@ function animateCircle(timestamp) {
   let baseY = canvas.height / 2;
   let amplitude = 100;
   let y = baseY - Math.sin(progress * Math.PI) * amplitude; 
+  let startX = radius; // <-- Agrega esta línea
   let endX = canvas.width - radius;
 
   if (!startTime) startTime = timestamp;
