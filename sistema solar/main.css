@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* NO pongas font-family aquí */
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    mix-blend-mode: luminosity;
+    z-index: 10; 
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 5vh; /* Tamaño de letra más grande */
+    color: #919191;
+}
+
+
+
+#lienzo {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1432;
+    z-index: -1; /* canvas al fondo de todo */
+}
