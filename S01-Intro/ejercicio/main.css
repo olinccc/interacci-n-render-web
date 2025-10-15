@@ -1,0 +1,20 @@
+/* CSS: Estilo del fondo y centrado */
+body {
+    /* Fondo claro y moderno */
+    background-color: #f0f0f0; 
+    
+    /* Configuración para centrar el canvas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    /* Sombra sutil para darle profundidad al lienzo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white; /* El lienzo en sí es blanco */
+    display: block;
+}
